@@ -1,0 +1,18 @@
+{
+  "name": "cassell/wegen",
+  "description": "Wegen",
+  "type": "library",
+  "require": {
+    "php": "^7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cassell\\Wegen\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cassell\\Wegen\\Tests\\": "tests/"
+    }
+  }
+}
